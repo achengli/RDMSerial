@@ -1,0 +1,12 @@
+CompileFlags:
+	Add: [
+		-I/usr/avr/include,
+    -I/home/tao/Git/RDMSerial/src/ArduinoCore-avr/cores/arduino,
+    -I/home/tao/Git/RDMSerial/src/ArduinoCore-avr/variants/mega,
+    -I/home/tao/Git/RDMSerial/src/ArduinoCore-avr/libraries/EEPROM/src,
+    -I/home/tao/Git/RDMSerial/src/ArduinoCore-avr/libraries/HID/src,
+    -I/home/tao/Git/RDMSerial/src/ArduinoCore-avr/libraries/SPI/src,
+    -I/home/tao/Git/RDMSerial/src/ArduinoCore-avr/libraries/SoftwareSerial/src,
+    -I/home/tao/Git/RDMSerial/src/ArduinoCore-avr/libraries/Wire/src,
+    -D__AVR_ATmega2560__]
+	Compiler: gcc
